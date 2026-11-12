@@ -1,0 +1,3 @@
+[submodule "estandar"]
+	path = estandar
+	url = https://github.com/Sierra-034/especificaciones-escolares.git
