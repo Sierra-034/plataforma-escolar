@@ -1,0 +1,15 @@
+name: Pruebas
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { submodules: true }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e "servidor[dev]" -e "simulador[dev]"
+      - run: pytest servidor simulador

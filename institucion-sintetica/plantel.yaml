@@ -1,0 +1,6 @@
+nombre: Plantel Sintético 01
+clave: SINTETICO-01          # no es una CCT real
+ciclo: 2026-2027/1
+turnos: [matutino, vespertino]
+semestres: [1, 3, 5]
+dominio_publico: constancias.ejemplo.invalid   # para las URL del QR (ADR-0008)
