@@ -54,6 +54,27 @@ scripts/fijar-estandar.sh esp-con-v0.2.0
 
 Mueve el submódulo `estandar/` a esa etiqueta y deja el cambio listo para commit. Entra en un PR propio.
 
+## Desarrollo
+
+### Clonar el repositorio
+
+Este repo usa un submódulo. Clona con:
+
+    git clone --recurse-submodules https://github.com/TU_USUARIO/plataforma-escolar
+
+Si ya lo tienes clonado sin el submódulo:
+
+    git submodule update --init
+
+### Estándar de especificaciones
+
+Las specs, ADRs y el contrato OpenAPI viven en `estandar/` (submódulo).
+No edites nada en `estandar/` directamente — los cambios van por PCE en especificaciones-escolares.
+
+Para actualizar el estándar a una versión etiquetada:
+
+    scripts/fijar-estandar.sh esp-con-v0.2.0
+
 ## Licencia
 
 Pendiente de su ADR. Se publica como software libre.
