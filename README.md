@@ -2,7 +2,8 @@
 
 Implementación de referencia, libre, de las
 [especificaciones escolares](https://github.com/Sierra-034/especificaciones-escolares).
-Primer objetivo: el **MVP de constancias** (ESP-CON v0.2, nivel 2 y luego nivel 3).
+Primer objetivo: el **MVP de constancias** (ESP-CON v0.5, nivel 2 y luego nivel 3).
+Qué cubre y contra qué versión del estándar: [SCOPE.md](SCOPE.md).
 
 Este repo dice **cómo** se construye. **Qué** debe hacer y **cómo se comprueba** viven en el estándar:
 si algo aquí contradice la especificación, manda la especificación.
